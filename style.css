@@ -1,0 +1,50 @@
+.slideDown {
+  animation: slideDown 0.6s ease-in-out;
+}
+
+.slideUp {
+  animation: slideUp 0.6s ease-in-out;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.inputCustom {
+  position: relative;
+  display: block;
+  font-family: "Wotfard", sans-serif;
+  font-size: 16px;
+  letter-spacing: normal;
+  font-weight: 400;
+  text-transform: none;
+  color: #152129;
+  width: 100%;
+  height: 56px;
+  line-height: 52px;
+  background-color: transparent;
+  border: 2px solid #cfdbe6;
+  border-radius: 8px;
+  box-shadow: 0;
+  outline: 0;
+  outline-color: transparent;
+  outline-style: none;
+  resize: none;
+  margin: 0;
+  padding: 0 16px;
+  text-rendering: optimizeLegibility;
+}
